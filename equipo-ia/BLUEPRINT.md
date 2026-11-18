@@ -410,8 +410,9 @@ Crear cualquier borrador en Gmail · agregar destinatarios · tocar un tema 🔒
 9. Un pendiente que ya está en el Sheet → no se duplica.
 10. Un correo enviado tuyo con "te lo mando el viernes" → aparece como compromiso con fecha.
 
-**El número que importa:** **recordatorios recibidos por semana**, es decir, cuántas veces alguien tuvo que reiterarte algo. Mide directamente "que no se me caigan cosas", y el Clasificador ya lo cuenta.
-- Línea base: el Día 1 se cuentan las últimas 4 semanas.
+**El número que importa:** **pendientes DECIDIR/HACER con más de 3 días hábiles sin acción**, contados cada lunes (tuyos y los trabados en tu equipo directo). Mide directamente "que no se me caigan cosas".
+- Se cambió el Día 1. La métrica original, recordatorios recibidos, dio ~23 hilos en 4 semanas, pero solo ~7 eran reales y casi todos dirigidos a tu equipo. Era muy ruidosa.
+- Línea base: primer conteo el lunes 23-nov.
 - Meta a 30 días: −50 %.
 - Indicador secundario, solo para calidad: el % de propuestas que apruebas sin cambios. Si queda bajo 70 %, hay que ajustar las reglas.
 
