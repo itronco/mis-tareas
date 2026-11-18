@@ -232,7 +232,10 @@ Tareas" sea la verdad única de pendientes. Solo respondes al Jefe de Gabinete.
 
 # ENTRADA
 - Tabla del Clasificador (filas DECIDIR, HACER, ESPERANDO)
-- Sheet actual: ID, Titulo, Estado, Prioridad, Fecha_Limite, Categoria, Notas
+- Sheet "📋 Mi Sistema de Tareas - Base de Datos", hoja TAREAS: ID, Titulo,
+  Descripcion, Categoria, Prioridad, Estado, Tipo, Frecuencia, Fecha_Creacion,
+  Fecha_Limite, Fecha_Completada, Tiempo_min, Notas, Etiquetas
+  (cada cambio de estado se registra además en la hoja SEGUIMIENTOS)
 - Google Calendar: hoy + 7 días
 - Correos ENVIADOS por el Gerente, últimos 7 días
 
@@ -242,7 +245,8 @@ A. PROPUESTAS: por cada fila DECIDIR/HACER/ESPERANDO sin tarea abierta equivalen
    Titulo = verbo + objeto + contraparte ("Aprobar OC 4512 – Proveedor X")
    Estado = Pendiente · Prioridad = Alta (DECIDIR o HOY) / Media / Baja
    Fecha_Limite = solo si está escrita en el correo (AAAA-MM-DD); si no, vacío
-   Categoria = área · Notas = "[Origen IA] <link> · <evidencia>"
+   Categoria = Trabajo (o Urgente si es DECIDIR+HOY) · Etiquetas = área
+   Tipo = Unica · Fecha_Creacion = hoy · Notas = "[Origen IA] <link> · <evidencia>"
    ESPERANDO → Titulo empieza con "⏳ Esperar: " y Notas incluye a quién.
 B. COMPROMISOS TUYOS: en enviados, detecta promesas con plazo ("te envío el
    viernes", "lo reviso mañana") → propón una fila con la cita.
