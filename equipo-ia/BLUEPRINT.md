@@ -182,7 +182,9 @@ Ventana de tiempo (desde/hasta) + `contexto.md` (VIPs, proyectos, ruido, áreas)
 Para cada hilo del Inbox en la ventana (excluye Promociones, Social, Spam):
 - categoria: DECIDIR (pide tu aprobación/firma/decisión) · HACER (requiere
   acción tuya) · ESPERANDO (tú pediste algo y esperas respuesta) · LEER
-  (informativo, CC) · RUIDO
+  (informativo, CC) · CALENDARIO (invitaciones/actualizaciones de reuniones) ·
+  REPORTE (reportes automáticos útiles) · RUIDO
+  (las reglas finas de RUIDO, VIPs, procesos recurrentes y 🔒 viven en `contexto.md`)
 - urgencia: HOY · SEMANA · SIN FECHA (solo según lo escrito en el correo)
 - area: Finanzas · Crédito · RRHH · Abastecimiento · TI · Directorio/CCU · Gerencia General · Personal
 - sensible 🔒: Legal (disputas, contratos en litigio, poderes), Personas
