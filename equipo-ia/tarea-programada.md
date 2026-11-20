@@ -1,5 +1,7 @@
 # Tarea programada: Equipo IA - Brief diario
 
+> **Estado (20-nov):** se reutilizó la tarea existente "Brief matinal" (ya tenía los conectores Gmail, Drive y Calendar), con sus instrucciones reemplazadas. Corre a las 07:30 Bolivia y lee las instrucciones de los agentes desde Drive (`Equipo IA/agentes`), así que no depende de este repo. El prompt de abajo queda como referencia histórica.
+
 - **Horario:** lunes a viernes, 07:21, America/La_Paz (cron `21 7 * * 1-5`)
 - **Repositorio:** itronco/mis-tareas · **Entorno:** mis-tareas
 - **Conectores:** Gmail, Google Drive, Google Calendar
